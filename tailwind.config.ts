@@ -52,6 +52,19 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				energy: {
+					primary: 'hsl(var(--energy-primary))',
+					secondary: 'hsl(var(--energy-secondary))',
+					accent: 'hsl(var(--energy-accent))',
+					warning: 'hsl(var(--energy-warning))',
+					chart: {
+						1: 'hsl(var(--energy-chart-1))',
+						2: 'hsl(var(--energy-chart-2))',
+						3: 'hsl(var(--energy-chart-3))',
+						4: 'hsl(var(--energy-chart-4))',
+						5: 'hsl(var(--energy-chart-5))'
+					}
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
